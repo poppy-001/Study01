@@ -1,0 +1,18 @@
+.nav .dropdown dd {
+    display: none;
+}
+
+.header .search {
+    float: right;
+}
+
+/* 商品总数 */
+.tol_quantity h2{
+    font-weight: 400;
+    font-size: 16px;
+    color: #c81623;
+}
+
+.tol_quantity h2 span{
+    font-size: 14px;
+}

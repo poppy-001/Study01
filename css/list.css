@@ -1,0 +1,193 @@
+/* 秒杀模块制作 */
+header {
+    position: relative;
+}
+
+header .seckill {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    height: 32px;
+    border-left: 1px solid #b1191a;
+    padding-left: 13px;
+    line-height: 32px;
+}
+
+
+/* 导航模块制作 */
+.nav .leftnav {
+    margin-right: 30px;
+}
+
+.nav .leftnav ul li {
+    float: left;
+}
+
+.nav .leftnav ul li a {
+    margin: 0 28px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+
+.nav .rightnav {
+    float: left;
+    margin-left: 30px;
+}
+
+.nav .rightnav ul li {
+    float: left;
+}
+
+.nav .rightnav ul li a {
+    display: block;
+    font-size: 14px;
+    margin-right: 45px;
+}
+
+.nav .rightnav ul li:last-child a::after {
+    content: "\e65e";
+    font-family: "iconfont";
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+
+/* 列表页主体制作 */
+.sk_container .sk_bd {
+    margin-top: 25px;
+}
+
+.sk_container .sk_bd ul li {
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 12px;
+}
+
+.sk_container .sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_container .sk_bd ul li a {
+    display: block;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.sk_bd ul li a .info {
+    padding: 0 13px;
+    text-align: left;
+
+}
+
+.sk_bd ul li a h3 {
+    height: 51px;
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.sk_bd ul li a .price {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #e60012;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.sk_bd ul li a .price span {
+    font-size: 14px;
+}
+
+.sk_bd ul li a .price .original_p {
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+
+
+.sk_bd ul li a .process>p {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.sk_bd ul li a .process .bar {
+    display: inline-block;
+    width: 133px;
+    height: 13px;
+    margin: 0 3px;
+    border: 1px solid #e12228;
+    border-radius: 5px;
+}
+
+.sk_bd ul li a .process .bar .bar_in {
+    height: 100%;
+    width: 87%;
+    background-color: #ed282e;
+}
+
+.sk_bd ul li a .process p span {
+    color: #e12228;
+}
+
+.sk_bd ul li a button {
+
+    width: 100%;
+    height: 51px;
+    background-color: #b1191a;
+    margin-top: 10px;
+    /* margin-left: -1px; */
+
+    font-size: 20px;
+    color: #fff;
+}
+
+.sk_container .sk_bd ul li a:hover {
+    color: #666;
+    border: 1px solid #e12228;
+}
+
+/* 侧边小导航 */
+
+.subnav {
+    position: fixed;
+    top: 520px;
+    right: 50%;
+    margin-right: -680px;
+}
+
+.subnav ul li a {
+    position: relative;
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-color: #b1191a;
+    margin-bottom: 1px;
+
+    color: #fff;
+    font-size: 20px;
+    line-height: 68px;
+    text-align: center;
+}
+
+.subnav ul li .top{
+    line-height: 1;
+    padding-top: 33px;
+}
+
+.subnav ul li .top::before {
+    position: absolute;
+    top: 16px;
+    left: 27px;
+    content: "\e65d";
+    font-family: "iconfont";
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.subnav ul li .iconfont{
+    font-size: 44px;
+}

@@ -1,0 +1,183 @@
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 头部区域 */
+header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+    padding-top: 16px;
+    margin-bottom: 21px;
+}
+
+/* 注册单主体区域 */
+
+.register_area {
+    height: 520px;
+    border: 1px solid #dfdfdf;
+}
+
+.register_area .reg_hd {
+    height: 41px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ddd;
+    padding: 0 10px;
+
+    line-height: 40px;
+    color: #333;
+
+}
+
+.reg_hd h3 {
+    float: left;
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.reg_hd p {
+    float: right;
+    font-size: 14px;
+}
+
+.reg_hd p a {
+    color: #c81623;
+}
+
+
+.reg_bd {
+    position: relative;
+    width: 600px;
+    margin: 54px auto;
+}
+
+.reg_bd ul input {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #999;
+    padding-left: 15px;
+}
+
+.reg_bd ul li {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+
+.reg_bd ul li label {
+    display: block;
+    float: left;
+    width: 88px;
+    text-align: right;
+    line-height: 36px;
+}
+
+.reg_bd ul li .error::before,
+.reg_bd ul li .success::before {
+    font-family: "iconfont";
+    font-size: 20px;
+    margin-right: 4px;
+    margin-left: 10px;
+}
+
+.reg_bd ul li .error {
+    color: #df3033;
+}
+
+.reg_bd ul li .error::before {
+    content: "\e613";
+    vertical-align: middle;
+
+}
+
+.reg_bd ul li .success {
+    color: green;
+}
+
+.reg_bd ul li .success::before {
+    content: "\e618";
+}
+
+.reg_bd ul li .safeMode {
+    position: relative;
+    left: 165px;
+    line-height: 1;
+    margin-top: 10px;
+    color: #b3b3b3;
+}
+
+.reg_bd ul li .safeMode i {
+    display: inline-block;
+    width: 34px;
+    height: 13px;
+    margin-right: 1px;
+    text-align: center;
+    color: #fff;
+}
+
+.reg_bd ul li .safeMode .bg_red {
+    background-color: #de1111;
+    margin-left: 9px;
+}
+
+.reg_bd ul li .safeMode .bg_green {
+    background-color: #40b83f;
+}
+
+.reg_bd ul li .safeMode .bg_orange {
+    background-color: #f79100;
+}
+
+.reg_bd .agreement {
+    width: 230px;
+    margin: 22px 85px 50px;
+    color: #4d4d4d;
+}
+
+.reg_bd .agreement input {
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.reg_bd .agreement a {
+    color: #1ba1e6;
+}
+
+.reg_bd button {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    margin-left: 96px;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+/* 底部模块制作 */
+footer {
+    margin-top: 25px;
+    text-align: center;
+    line-height: 1;
+}
+
+footer .links {
+    margin-bottom: 16px;
+}
+
+footer .links a {
+    display: inline-block;
+    padding: 0 15px;
+    border-right: 1px solid #999;
+}
+
+footer .links a:last-child {
+    border: 0;
+}
+
+footer p {
+    margin-bottom: 9px;
+}
